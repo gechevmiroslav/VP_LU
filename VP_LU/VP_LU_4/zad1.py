@@ -1,0 +1,6 @@
+sentence = input("Enter a sentence: ")
+words = sentence.lower().split()
+unique_words = set(words)
+sorted_unique_words = sorted(unique_words)
+print("Number of unique words:", len(unique_words))
+print("Unique words:", sorted_unique_words)
